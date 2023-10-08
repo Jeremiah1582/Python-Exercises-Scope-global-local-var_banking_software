@@ -5,7 +5,7 @@ account_balance = 100
 def check_balance():
     global account_balance
     print(f"Your current balance is ${account_balance}.")
-
+    return account_balance
 # Function to deposit an amount
 def deposit(amount):
     global account_balance
@@ -45,4 +45,7 @@ while True:
         break
     else:
         print("Invalid choice. Please try again.")
+
+
+# testing 
 
